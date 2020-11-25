@@ -1,4 +1,3 @@
-export PATH=/home/jovyan/software/anaconda3/envs/sits_bert/bin/:$PATH
 #export CUDA_VISIBLE_DEVICES=1
 python finetuning.py \
     --file_path '../data/California-Labeled/' \
