@@ -1,5 +1,4 @@
-export PATH=/data02/linlei/programFiles/anaconda3/envs/sits_bert_envs/bin/:$PATH
-export CUDA_VISIBLE_DEVICES=0
+# export CUDA_VISIBLE_DEVICES=0
 python pretraining.py \
     --dataset_path '../data/California-Unlabeled/California-10bands.csv' \
     --pretrain_path '../checkpoints/pretrain_tmp/' \
