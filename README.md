@@ -1,7 +1,7 @@
 # SITS-BERT
 
 This repository provides a PyTorch implementation of the pre-training scheme presented in our paper 
-[Self-Supervised Pre-Training of Transformers for Satellite Image Time Series Classification]
+***Self-Supervised Pre-Training of Transformers for Satellite Image Time Series Classification***
 
 ## Citation and Contact
 
@@ -65,7 +65,7 @@ All the Sentinel-2 images (Level-1C) we used were downloaded from the United Sta
 (USGS) EarthExplorer website and preprocessed to Bottom-Of-Atmosphere (BOA) reflectance Level-2A using
 the Sen2Cor plugin v2.8 and the Sentinel Application Platform (SNAP 7.0). The Multispectral Instrument
 (MSI) sensor provides 13 spectral bands, i.e., four bands at 10-m (Blue, Green, Red, NIR), six bands at
-20-m (Vegetation Red Edge 1~3, Narrow NIR, SWIR 1~2), and three atmospheric bands at 60-m spatial resolution.
+20-m (Vegetation Red Edge 1-3, Narrow NIR, SWIR 1-2), and three atmospheric bands at 60-m spatial resolution.
 With the exception of the atmospheric bands, all 10 bands (i.e., Sentinel band-2,3,4,5,6,7,8,8A,11,12) 
 were used in this study. Bands at 20-m resolution were resampled to 10-m via nearest sampling. A scene 
 classification map was generated for each image along with the Level-2A processing, which assigned pixels
