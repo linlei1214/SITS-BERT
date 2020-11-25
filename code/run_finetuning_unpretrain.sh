@@ -1,5 +1,4 @@
-export PATH=/data02/linlei/programFiles/anaconda3/envs/sits_bert_envs/bin/:$PATH
-export CUDA_VISIBLE_DEVICES=2
+# export CUDA_VISIBLE_DEVICES=2
 python finetuning.py \
     --file_path '../data/California-Labeled/' \
     --finetune_path '../checkpoints/unpretrain/' \
