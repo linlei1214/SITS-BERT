@@ -73,7 +73,7 @@ to clouds, cloud shadows, vegetation, soils/deserts, water, snow, etc. According
 map, low-quality observations belonging to clouds (including cirrus), cloud-shadows, and snow were discarded
 when extracting the annual time series of each pixel.
 
-Time series data is organized in `CSV` format. Each row of a csv file corresponds to an annual satellite observation 
+Time series data is organized in *CSV* format. Each row of a csv file corresponds to an annual satellite observation 
 time series of a pixel. For each row, the storage order is [[observation data], [DOY data], [class label(optional)]],
  where [observation data] is stored in the order of bands:
 
@@ -95,9 +95,9 @@ Note: [DOY data] record the acquisition Julian dates of the observations in a ti
 
 ### Pre-Training SITS-BERT
 
-The file `pretraining.py` is the main code for pre-training a SITS-BERT model.
-All unlabeled time series are stored in a single csv file (e.g., `Pre-Training-Data.csv`), and the program 
-can automatically split the data into training/validation sets according to the given `valid_rate`.
+The file *pretraining.py* is the main code for pre-training a SITS-BERT model.
+All unlabeled time series are stored in a single csv file (e.g., *Pre-Training-Data.csv*), and the program 
+can automatically split the data into training/validation sets according to the given *valid_rate*.
 
 You can run the following Linux command for pre-training a SITS-BERT model on your own data.
 ```
@@ -121,14 +121,15 @@ python pretraining.py \
 ```
 
 We have provided the pre-trained model parameters for SITS-BERT, which are available in 
-the `checkpoints\pretrain\` folder.
+the *checkpoints\pretrain\* folder.
 
 ### Fine-Tuning SITS-BERT
 
-The file `finetuning.py` is the main code for fine-tuning a pre-trained SITS-BERT model and using 
+The file *finetuning.py* is the main code for fine-tuning a pre-trained SITS-BERT model and using 
 the fine-tuned model for satellite time series classification.
 The sample dataset has been divided into training/validation/test sets, which are available 
-in the `data\California-Labeled\` folder.
+in the *data\California-Labeled* folder.  
+Download the sample dataset from [BaiduYunPan](https://pan.baidu.com/s/10DuxW2Tin9v80YiWU5WjbA), password: kpud
 
 You can run the following Linux command to run the experiment:
 ```
