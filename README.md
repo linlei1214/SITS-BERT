@@ -129,7 +129,7 @@ The file *finetuning.py* is the main code for fine-tuning a pre-trained SITS-BER
 the fine-tuned model for satellite time series classification.
 The sample dataset has been divided into training/validation/test sets, which are available 
 in the *data\California-Labeled* folder.  
-Download the sample dataset from [BaiduYunPan](https://pan.baidu.com/s/10DuxW2Tin9v80YiWU5WjbA), password: kpud
+Download the sample dataset from [Google Driver](https://drive.google.com/file/d/1_8fzOSpuEu8IGYQ_qsGWY_ZHarftuiDo/view?usp=sharing) [BaiduYunPan](https://pan.baidu.com/s/10DuxW2Tin9v80YiWU5WjbA), password: kpud
 
 You can run the following Linux command to run the experiment:
 ```
