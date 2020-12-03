@@ -128,7 +128,7 @@ if __name__ == "__main__":
     valid_data_loader = DataLoader(valid_dataset, shuffle=False,
                                    batch_size=config.batch_size, drop_last=False)
     test_data_loader = DataLoader(test_dataset, shuffle=False,
-                                  batch_size=config.batch_size, drop_last=True)
+                                  batch_size=config.batch_size, drop_last=False)
 
 
     print("Initialing SITS-BERT...")
